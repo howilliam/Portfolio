@@ -5,20 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>William Ho</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1>William Ho</h1>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Resources</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Resume</a></li>
       </ul>
     </nav>
   </header>
@@ -34,16 +34,42 @@
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <p class="flexItem">
+        I am a Master's in Aeronautical Engineering graduate at Imperial College London, where I have consistently achieved high academic performance, earning a Upper Second Class, 2:1. My final year project involved data-driven estimation and control of highly non-linear chaotic flow using MATLAB. I also undertook projects in parallel computing, simulating the 2D Shallow water equation in C++ using OpenMP and BLAS, and exploring the double pendulum problem using object-oriented programming in C++.
+        
+        During my academic journey, I conducted an in-depth analysis of the Android app market, comparing over ten thousand apps in Google Play across different categories. This involved data cleaning, exploring app categories, and conducting sentiment analysis of user reviews using Python.</p>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2>Work</h2>
+      <section id="projectGrid">
+        <div id="bookcases" class="projectGridArea">
+          <div class="heading">Bookcases</div>
+        </div>
+        <div id="bedroom" class="projectGridArea">
+          <div class="heading">Bedroom</div>
+        </div>
+        <div id="couches" class="projectGridArea">
+          <div class="heading">Couches</div>
+        </div>
+        <div id="patio" class="projectGridArea">
+          <div class="heading">Patio</div>
+        </div>
+        <div id="desks" class="projectGridArea">
+          <div class="heading">Desks</div>
+        </div>
+      </section>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <section class="page-section contact">
       <h2>Contact Me</h2>
+      <div class="contact">
+          <a href="https://uk.linkedin.com/in/william-ho-b519621b2">LinkedIn</a>
+          <a href="https://github.com/howilliam">GitHub</a>
+          <a>Email: williamtzefengho@gmail.com</a>
+    </div>
     </section>
   </main>
 </body>
