@@ -11,6 +11,7 @@ N/A
 ## Usage
 
 This page is mainly used to explore my work. 
+Follow this link: https://howilliam.github.io/Portfolio/ 
 
 ## Credits
 
