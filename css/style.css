@@ -97,7 +97,7 @@ p {
 }
 
 .hero-banner {
-  display:flex;
+  display:grid;
   height: 200px;
   min-height: 20vh;
   background-image: url("../images/02-hero-bg.jpg");
@@ -232,11 +232,3 @@ div.contact {
   left: 0;
 }
 
-img{
-  position: absolute;
-  right: -50px;
-  top: 100px;
-  padding: 25px;
-  max-width: 550px;
-  z-index: 100;
-}
